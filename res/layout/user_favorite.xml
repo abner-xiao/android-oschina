@@ -23,7 +23,7 @@
 	   	<TextView 
 	   		style="@style/detail_head_title" 
 	   		android:layout_gravity="center"
-	   		android:text="我的收藏夹"/>
+	   		android:text="@string/my_shoucang"/>
    	   	<ProgressBar 
 			android:id="@+id/favorite_head_progress" 
 			style="@style/loading_small"
@@ -43,27 +43,27 @@
 			<Button 
 				android:id="@+id/favorite_catalog_software"
 				style="@style/frame_button"
-	         	android:text="软件"/>
+	         	android:text="@string/soft_doc"/>
 			<ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:background="@drawable/frame_button_cutline"/>
 			<Button 
 				android:id="@+id/favorite_catalog_post"
 				style="@style/frame_button"
-	         	android:text="话题"/>
+	         	android:text="@string/huati"/>
 			<ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:background="@drawable/frame_button_cutline"/>
 			<Button 
 				android:id="@+id/favorite_catalog_code"
 				style="@style/frame_button"
-	         	android:text="代码"/>
+	         	android:text="@string/code"/>
 			<ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:background="@drawable/frame_button_cutline"/>
 			<Button 
 				android:id="@+id/favorite_catalog_blog"
 				style="@style/frame_button"
-	         	android:text="博客"/>
+	         	android:text="@string/blog"/>
 			<ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:background="@drawable/frame_button_cutline"/>
 			<Button 
 				android:id="@+id/favorite_catalog_news"
 				style="@style/frame_button"
-	         	android:text="资讯"/>
+	         	android:text="@string/news"/>
 		</LinearLayout>
 		
 		<net.oschina.app.widget.PullToRefreshListView

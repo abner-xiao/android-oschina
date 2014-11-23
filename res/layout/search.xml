@@ -23,7 +23,7 @@
 	        android:focusableInTouchMode="true"
 	        android:imeOptions="actionSearch"
 	        android:background="@drawable/edit_search_bg"
-	        android:hint="输入搜索内容"/>			
+	        android:hint="@string/pls_input"/>
 	   	<Button 
 	   		android:id="@+id/search_btn"
 		   	android:layout_width="wrap_content" 
@@ -52,28 +52,28 @@
 			<Button 
 				android:id="@+id/search_catalog_software"
 				style="@style/frame_button"
-	         	android:text="软件"/>
+	         	android:text="@string/soft_doc"/>
 	   		<ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:background="@drawable/frame_button_cutline"/>
 			<Button 
 				android:id="@+id/search_catalog_post"
 				style="@style/frame_button"
-	         	android:text="问答"/>
+	         	android:text="@string/answer_replay"/>
 			<ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:background="@drawable/frame_button_cutline"/>
 			<Button 
 				android:id="@+id/search_catalog_blog"
 				style="@style/frame_button"
-	         	android:text="博客"/>
+	         	android:text="@string/blog"/>
 			<ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:background="@drawable/frame_button_cutline"/>
 	   		<Button 
 				android:id="@+id/search_catalog_news"
 				style="@style/frame_button"
-	         	android:text="新闻"/>
+	         	android:text="@string/news"/>
 			<ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:background="@drawable/frame_button_cutline"
 			    android:visibility="gone" /> 
 			<Button 
 				android:id="@+id/search_catalog_code"
 				style="@style/frame_button"
-	         	android:text="代码"
+	         	android:text="@string/code"
 	         	android:visibility="gone"/>
 		</LinearLayout>
 		

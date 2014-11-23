@@ -22,5 +22,5 @@
         android:layout_width="45dip"
     	android:layout_height="wrap_content"
     	android:background="@drawable/login_btn_selector" 
-        android:text="发布"/>
+        android:text="@string/fabu"/>
 </LinearLayout>

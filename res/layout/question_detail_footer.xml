@@ -78,7 +78,7 @@
 		      	android:background="@drawable/widget_button_bg"
 		      	android:textColor="@color/black"
 		      	android:textSize="14dip"
-		      	android:text="回帖"/>
+		      	android:text="@string/repaly"/>
 		</LinearLayout>
 	</ViewSwitcher>
 </LinearLayout>

@@ -10,7 +10,7 @@
 	    style="@style/user_center_footbar"
 	    android:layout_marginLeft="5dip"
 	    android:drawableLeft="@drawable/widget_bar_relation_add"
-	    android:text="加关注"/>
+	    android:text="@string/add_guanzhu"/>
 	<ImageView
 		style="@style/main_footbar_cutline"
 		android:src="@drawable/widget_bar_cut_off"/>
@@ -19,7 +19,7 @@
 	    style="@style/user_center_footbar"
 	    android:layout_marginLeft="15dip"
 	    android:drawableLeft="@drawable/widget_bar_mail"
-	    android:text="留言"/>
+	    android:text="@string/liuyan_"/>
 	<ImageView
 		style="@style/main_footbar_cutline"
 		android:src="@drawable/widget_bar_cut_off"/>
@@ -28,5 +28,5 @@
 	    style="@style/user_center_footbar"
 	    android:layout_marginLeft="6dip"
 	    android:drawableLeft="@drawable/widget_bar_atme"
-	    android:text="提到Ta"/>
+	    android:text="@string/comment"/>
 </LinearLayout>

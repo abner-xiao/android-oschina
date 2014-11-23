@@ -24,7 +24,7 @@
 	   	    android:id="@+id/frame_software_head_title"
 	   		style="@style/detail_head_title" 
 	   		android:layout_gravity="center"
-	   		android:text="开源软件库"/>
+	   		android:text="@string/open_source"/>
    	   	<ProgressBar 
 			android:id="@+id/frame_software_head_progress" 
 			style="@style/loading_small"
@@ -40,27 +40,27 @@
        	<Button 
 	        android:id="@+id/frame_btn_software_catalog"
 			style="@style/frame_button"
-         	android:text="分类"/>
+         	android:text="@string/fenlei"/>
        	<ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:background="@drawable/frame_button_cutline"/>
 		<Button 
 			android:id="@+id/frame_btn_software_recommend"
 			style="@style/frame_button"
-         	android:text="推荐"/>
+         	android:text="@string/tuijian"/>
 		<ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:background="@drawable/frame_button_cutline"/>
 		<Button 
 			android:id="@+id/frame_btn_software_lastest"
 			style="@style/frame_button"
-         	android:text="最新"/>
+         	android:text="@string/newest"/>
 		<ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:background="@drawable/frame_button_cutline"/>
 		<Button 
 			android:id="@+id/frame_btn_software_hot"
 			style="@style/frame_button"
-         	android:text="热门"/>
+         	android:text="@string/hold"/>
 		<ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:background="@drawable/frame_button_cutline"/>
 		<Button 
 			android:id="@+id/frame_btn_software_china"
 			style="@style/frame_button"
-         	android:text="国产"/>
+         	android:text="@string/china"/>
 	</LinearLayout>
 	
     <net.oschina.app.widget.ScrollLayout   

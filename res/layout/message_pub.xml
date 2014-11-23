@@ -21,13 +21,13 @@
 		   	android:background="@drawable/head_back"/>
 	   	<TextView 
 	   		style="@style/detail_head_title"
-	   		android:text="发送留言"/>
+	   		android:text="@string/send_liuyan"/>
 	    <Button
 	    	android:id="@+id/message_pub_publish"
 	        android:layout_width="45dip"
 	    	android:layout_height="wrap_content"
 	    	android:background="@drawable/login_btn_selector" 
-	        android:text="发送"/>
+	        android:text="@string/send"/>
 	</LinearLayout>
 
 	<LinearLayout
@@ -49,7 +49,7 @@
 	        android:layout_width="wrap_content"
 	        android:layout_marginTop="6.0dip"
 	        android:layout_marginLeft="2.0dip"
-	        android:text="* 留言内容(最多250个字)"
+	        android:text="@string/liuyan_content"
 	        android:textSize="12sp"
 	        android:textColor="@color/head_text"/>
 	    <EditText
@@ -59,7 +59,7 @@
 	        android:lines="5"
 	        android:autoLink="web"
 	        android:gravity="top"
-	        android:hint="输入留言"/>
+	        android:hint="@string/send_liuyan"/>
 	</LinearLayout>
 
 </LinearLayout>

@@ -24,7 +24,7 @@
 		    <TextView 
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
-		        android:text="标题："
+		        android:text="@string/title"
 		        android:textSize="15sp"
 		        android:textColor="@color/black"/>
 		    <EditText
@@ -33,7 +33,7 @@
 		        android:layout_height="wrap_content"
 		        android:layout_weight="1"
 		        android:singleLine="true"
-		        android:hint="输入标题"/>
+		        android:hint="@string/pls_input"/>
 	    </LinearLayout>
 
 	    <LinearLayout
@@ -44,7 +44,7 @@
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:layout_gravity="center_vertical"
-	            android:text="分类："
+	            android:text="@string/fenlei_d"
 	            android:textColor="@color/black"
 	            android:textSize="15sp" />
 	        <Spinner
@@ -59,7 +59,7 @@
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_marginLeft="2.0dip"
-	        android:text="请对问题进行详细描述："
+	        android:text="@string/pls_dis"
 	        android:textColor="@color/author_text" />
 
 	    <EditText
@@ -70,7 +70,7 @@
 	        android:lines="5"
 	        android:autoLink="web"
 	        android:gravity="top"
-	        android:hint="输入提问内容"/>
+	        android:hint="@string/pls_duifang"/>
           <CheckBox 
             android:id="@+id/question_pub_email" 
             android:layout_width="wrap_content" 
@@ -79,7 +79,7 @@
             android:layout_gravity="left|center" 
             android:button="@drawable/login_checkbox_selector"
             android:textColor="@color/black"
-            android:text="有人回答时邮件通知我"/>
+            android:text="@string/someone_notify"/>
 	</LinearLayout>
 	</ScrollView>
 </LinearLayout>

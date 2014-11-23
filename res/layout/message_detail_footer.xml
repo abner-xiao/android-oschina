@@ -49,7 +49,7 @@
 		      	android:background="@drawable/widget_button_bg"
 		      	android:textColor="@color/black"
 		      	android:textSize="14dip"
-		      	android:text="发送"/>
+		      	android:text="@string/send"/>
 		</LinearLayout>
 	</ViewSwitcher>
 </LinearLayout>

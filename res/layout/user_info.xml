@@ -84,7 +84,7 @@
 			    	android:layout_alignParentBottom="true"
 			    	android:background="@drawable/login_btn_selector" 
 			    	android:textSize="@dimen/text_size_12" 
-			        android:text="编辑头像"/>
+			        android:text="@string/edit_image"/>
 		    </RelativeLayout>
 
             <LinearLayout 
@@ -104,7 +104,7 @@
 	                android:textSize="@dimen/text_size_15" 
 	                android:textStyle="bold" 
 	                android:textColor="@color/grayslate" 
-	                android:text="收藏：" />
+	                android:text="@string/shoucang_in" />
                 <TextView 
                		android:id="@+id/user_info_favorites"  
 	                android:layout_width="fill_parent"
@@ -137,7 +137,7 @@
                   	android:textSize="@dimen/text_size_15" 
                 	android:textStyle="bold" 
                   	android:textColor="@color/grayslate" 
-                  	android:text="关注：" />
+                  	android:text="@string/guangzhu_in" />
              	<TextView 
                		android:id="@+id/user_info_followers"  
                   	android:layout_width="fill_parent" 
@@ -170,7 +170,7 @@
 	                android:textSize="@dimen/text_size_15" 
 	                android:textStyle="bold" 
 	                android:textColor="@color/grayslate" 
-	                android:text="粉丝：" />
+	                android:text="@string/fans" />
                	<TextView 
               		android:id="@+id/user_info_fans"  
 	                android:layout_width="fill_parent" 
@@ -204,7 +204,7 @@
 	                android:textSize="@dimen/text_size_15" 
 	                android:textStyle="bold" 
 	                android:textColor="@color/grayslate" 
-	                android:text="加入时间：" />
+	                android:text="@string/join_time" />
                 <TextView 
                		android:id="@+id/user_info_jointime"    
 	                android:layout_width="fill_parent"
@@ -230,7 +230,7 @@
                   	android:textSize="@dimen/text_size_15" 
                 	android:textStyle="bold" 
                   	android:textColor="@color/grayslate" 
-                  	android:text="所在地区：" />
+                  	android:text="@string/com_frm" />
              	<TextView 
                		android:id="@+id/user_info_from" 
                   	android:layout_width="fill_parent" 
@@ -256,7 +256,7 @@
                   	android:textSize="@dimen/text_size_15" 
                 	android:textStyle="bold" 
                   	android:textColor="@color/grayslate" 
-                  	android:text="开发平台：" />
+                  	android:text="@string/develop_pingtai" />
              	<TextView 
                		android:id="@+id/user_info_devplatform"
                   	android:layout_width="fill_parent" 
@@ -282,7 +282,7 @@
 	                android:textSize="@dimen/text_size_15" 
 	                android:textStyle="bold" 
 	                android:textColor="@color/grayslate" 
-	                android:text="专长领域：" />
+	                android:text="@string/zhuangyelingyu" />
                	<TextView 
               		android:id="@+id/user_info_expertise"   
 	                android:layout_width="fill_parent" 

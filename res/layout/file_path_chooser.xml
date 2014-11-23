@@ -56,7 +56,7 @@
 
         <TextView
             android:layout_marginLeft="10dip"
-            android:text="当前路径:"
+            android:text="@string/current_dir"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" 
             android:textColor="#FFFFFF"

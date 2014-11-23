@@ -112,7 +112,7 @@
                           	android:textSize="@dimen/text_size_15" 
                         	android:textStyle="bold" 
                           	android:textColor="#ff000000" 
-                          	android:text="授权协议：" />
+                          	android:text="@string/shouquanxieyi" />
                        <TextView 
                        		android:id="@+id/software_detail_license"  
                           	android:layout_width="wrap_content" 
@@ -142,7 +142,7 @@
 	                        android:textSize="@dimen/text_size_15" 
 	                        android:textStyle="bold" 
 	                        android:textColor="#ff000000" 
-	                        android:text="开发语言：" />
+	                        android:text="@string/kaifayuyan" />
                        <TextView 
                        		android:id="@+id/software_detail_language"  
 	                        android:layout_width="wrap_content" 
@@ -172,7 +172,7 @@
 	                        android:textSize="@dimen/text_size_15" 
 	                        android:textStyle="bold" 
 	                        android:textColor="#ff000000" 
-	                        android:text="操作系统：" />
+	                        android:text="@string/operating_system" />
                        <TextView 
                        		android:id="@+id/software_detail_os"  
 	                        android:layout_width="wrap_content" 
@@ -200,7 +200,7 @@
 	                        android:textSize="@dimen/text_size_15" 
 	                        android:textStyle="bold" 
 	                        android:textColor="#ff000000" 
-	                        android:text="收录时间：" />
+	                        android:text="@string/shoulu_time" />
                        <TextView 
                        		android:id="@+id/software_detail_recordtime"  
 	                        android:layout_width="wrap_content" 
@@ -225,21 +225,21 @@
                    	android:layout_width="88.0dip" 
                    	android:layout_height="35.0dip" 
                    	android:background="@drawable/login_btn_selector"
-                   	android:text="软件首页" />
+                   	android:text="@string/soft_page" />
              	<Button 
                		android:layout_centerHorizontal="true"
                    	android:id="@+id/software_detail_download" 
                    	android:layout_width="88.0dip" 
                    	android:layout_height="35.0dip" 
                    	android:background="@drawable/login_btn_selector"
-                   	android:text="软件下载" />
+                   	android:text="@string/soft_down" />
              	<Button 
                		android:layout_alignParentRight="true"
                    	android:id="@+id/software_detail_document" 
                    	android:layout_width="88.0dip" 
                    	android:layout_height="35.0dip" 
                    	android:background="@drawable/login_btn_selector"
-                   	android:text="软件文档" />
+                   	android:text="@string/soft_doc" />
              </RelativeLayout>
         </LinearLayout>	
     </ScrollView>

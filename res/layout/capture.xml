@@ -33,7 +33,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_margin="5dp"
             android:background="@color/transparent"
-            android:text="将二维码放入框内，即可自动完成扫描"
+            android:text="@string/pls_take_into"
             android:textColor="@color/status_text"
             android:textSize="15sp" />
     </LinearLayout>

@@ -29,7 +29,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="截图分享"
+                    android:text="@string/jietu_share"
                     android:textColor="#FFFFFF"
                     android:textSize="22sp" />
             </LinearLayout>
@@ -74,7 +74,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:text="还能输入100个字"
+                        android:text="@string/can_input"
                         android:textColor="#000000" />
                 </RelativeLayout>
             </LinearLayout>
@@ -88,7 +88,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="来源:"
+                    android:text="@string/com_frm"
                     android:textColor="#000000"
                     android:textSize="12sp" />
 
@@ -96,7 +96,7 @@
                     android:id="@+id/tv_url"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="http://www.oschina.net"
+                    android:text="@string/link_net"
                     android:textColor="#000000"
                     android:textSize="12sp" />
             </LinearLayout>
@@ -135,7 +135,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dip"
-                    android:text="新浪微博"
+                    android:text="@string/sina_blog"
                     android:textColor="#FFFFFF"
                     android:textSize="18sp" />
             </LinearLayout>
@@ -158,7 +158,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="3dip"
-                    android:text="腾讯微博"
+                    android:text="@string/tecent_blog"
                     android:textColor="#FFFFFF"
                     android:textSize="18sp" />
             </LinearLayout>

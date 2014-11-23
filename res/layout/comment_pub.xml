@@ -40,7 +40,7 @@
             android:layout_gravity="left|center" 
             android:button="@drawable/login_checkbox_selector"
             android:textColor="@color/black"
-            android:text="转发到个人空间"
+            android:text="@string/recommit"
             android:visibility="gone"/>
 	</LinearLayout>
 

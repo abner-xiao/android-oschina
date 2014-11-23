@@ -35,7 +35,7 @@
 		    android:layout_marginRight="10dip"
 		    android:layout_weight="0.3"
 		    android:visibility="gone"
-		    android:text="按住  说话"
+		    android:text="@string/press_say"
 		    android:textColor="@color/black" />
 		<ImageView 
 			android:id="@+id/tweet_pub_footbar_photo"

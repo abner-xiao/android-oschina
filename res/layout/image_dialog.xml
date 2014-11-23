@@ -40,7 +40,7 @@
 		    android:layout_gravity="center_horizontal"
 		    android:layout_marginTop="15dip"
 		    android:background="@drawable/preview_button"
-		    android:text="查看原图"
+		    android:text="@string/check_reasion"
 		    android:textColor="@color/graywhite"/>
 	</LinearLayout>
 </ViewSwitcher>

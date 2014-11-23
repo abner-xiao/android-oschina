@@ -3,7 +3,7 @@ buildscript {
     jcenter()
   }
   dependencies {
-    classpath 'com.android.tools.build:gradle:0.12.2'
+    classpath 'com.android.tools.build:gradle:0.14.4'
   }
 }
 
@@ -29,7 +29,7 @@ task checkstyle(type: Checkstyle) {
 
 android {
   compileSdkVersion 15
-    buildToolsVersion "21.1.0"
+    buildToolsVersion "20"
 
     defaultConfig {
       applicationId "net.oschina.app"
@@ -39,7 +39,6 @@ android {
 
   buildTypes {
     release {
-      runProguard false
         proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
     }
   }

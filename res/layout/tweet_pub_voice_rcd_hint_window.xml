@@ -31,7 +31,8 @@
                 android:layout_marginBottom="15.0dip"
                 android:layout_marginLeft="35.0dip"
                 
-                android:src="@drawable/tweet_voice_rcd_hint" android:contentDescription="TODO"/>
+                android:src="@drawable/tweet_voice_rcd_hint"
+                android:contentDescription="@string/to_do"/>
 
             <ImageView
                 android:id="@+id/tweet_pub_voice_rcd_hint_anim"
